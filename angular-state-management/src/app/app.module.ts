@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import {StoreModule} from '@ngrx/store';
 import {EmployeeReducer} from 'src/app/reducers/employee.reducer';
 import { AppComponent } from './app.component';
+import { EmployeeViewComponent } from './employee-view/employee-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeeViewComponent
   ],
   imports: [
     BrowserModule,

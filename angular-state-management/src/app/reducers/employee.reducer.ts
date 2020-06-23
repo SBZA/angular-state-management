@@ -1,5 +1,4 @@
 import {ActionEx, EmployeeActionsType} from 'src/app/actions/employee.actions';
-import { stat } from 'fs';
 
 export const initialState = [];
 
