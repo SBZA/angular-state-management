@@ -3,5 +3,6 @@
 <ul class="customers">
   <li *ngFor="let customer of employees | async; let i=index">
     <span >{{i+1}}.</span> {{customer.firstName}}
+    <button style="float: right" (click)="removeEmployee(i)">Remove</button>
   </li>
 </ul>
